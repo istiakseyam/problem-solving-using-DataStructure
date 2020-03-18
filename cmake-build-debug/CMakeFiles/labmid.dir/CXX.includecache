@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/istiakahmedseyam/C++ CODES/labmid/main.cpp
+iostream
+-
+unsortedtype.h
+/Users/istiakahmedseyam/C++ CODES/labmid/unsortedtype.h
+studentInfo.h
+/Users/istiakahmedseyam/C++ CODES/labmid/studentInfo.h
+
+/Users/istiakahmedseyam/C++ CODES/labmid/studentInfo.cpp
+studentInfo.h
+/Users/istiakahmedseyam/C++ CODES/labmid/studentInfo.h
+iostream
+-
+
+/Users/istiakahmedseyam/C++ CODES/labmid/studentInfo.h
+string
+-
+
+/Users/istiakahmedseyam/C++ CODES/labmid/unsortedtype.cpp
+unsortedtype.h
+/Users/istiakahmedseyam/C++ CODES/labmid/unsortedtype.h
+
+/Users/istiakahmedseyam/C++ CODES/labmid/unsortedtype.h
+unsortedtype.cpp
+/Users/istiakahmedseyam/C++ CODES/labmid/unsortedtype.cpp
+
